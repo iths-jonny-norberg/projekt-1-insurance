@@ -1,0 +1,728 @@
+
+body {
+ 
+  margin: 0px;
+  padding: 0px;
+
+}
+
+
+
+/* Top section */
+
+
+.s1 {
+
+ flex-direction: row;
+ padding: 0px;
+ background-color: gray;
+ width: 80%;
+ margin: auto;
+ margin: opx;
+ display: flex;
+ flex
+
+}
+
+
+.Box {
+  width: 50%;
+ margin: 0px;
+
+  padding: 40px;
+  background-color: lightblue;
+ 
+}
+
+
+.Box2 {
+
+ width: 50%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.top {
+background-color: #f17849;
+height: 50%;
+
+  margin: 0px;
+  padding: 30px;
+  
+}
+
+.under {
+background-color: #fab131;
+height: 27%;
+margin: 0px;
+padding: 30px;
+  
+  
+}
+
+
+.family {
+  background-color: lightblue;
+margin: 0px;
+  padding: 0px;
+  vertical-align: right;
+    justify-content: right;
+     align-items: right;
+    vertical-align: right;
+  
+}
+
+.famimg {
+    align-content: right;
+    align-self: right;
+    height: 45vh;
+    align-items: right;
+    vertical-align: right;
+    justify-content: right;
+    margin: 0px;
+    padding:0px;
+  
+}
+
+
+
+.text {
+  background-color: lightblue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.offer {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0px;
+  
+}
+
+.btn{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: none; padding: 4px 5px; color: black; background-color: #fff;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;       3px 3px 5px 6px #ccc;
+}
+
+
+.btn:hover {
+    background-color: #fab131;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;       3px 3px 5px 6px #ccc;
+}
+
+
+
+
+/* top section */
+
+
+
+
+.middle {
+ 
+ 
+ font-family: 'Source Sans Pro', serif;
+ justify-content: center;
+ text-align: center;
+
+
+}
+
+
+
+
+
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+.s2 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  grid-template-columns: 40% 40%;
+  max-width: 80%
+  margin: auto;
+  justify-content: center;
+
+}
+
+
+
+
+.row {
+  display: grid;
+  grid-template-columns: 40% 40%;
+ 
+  justify-content: center;
+  align-content: center;
+  
+}
+
+
+
+
+.flex1 {
+  background-color: #a9a19e;
+  padding: 10%;
+  min-width: 30%;
+  justify-content: left;
+  text-align: left;
+
+}
+
+
+
+.flex2 {
+  background-color: #a9a19e;
+  padding: 10%;
+  min-width: 30%;
+
+}
+
+
+
+
+.grey {
+ margin: 0px;
+  padding: 0px;
+ background-color: gray;
+ width: 80%;
+ margin: auto;
+ display: flex;
+ justify-content: left;
+ text-align: left;
+
+
+}
+
+
+
+
+
+
+/* Section three*/
+
+
+
+
+.s3 {
+ margin: 0px;
+ padding: 0px;
+ width: 80%;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ background-color: #a9a19e;
+
+
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+
+/* Section three*/
+
+
+
+
+
+
+
+
+
+/* Section four about*/
+
+
+
+
+.s4 {
+ margin: 0px;
+ padding: 35px;
+ background-color: #fab131;
+ width: 75%;
+ margin: auto;
+ align-content: center;
+ justify-content: center;
+ text-align: center;
+
+
+
+}
+
+.aboutTxt {
+
+
+
+
+}
+
+.white { 
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* Section four*/
+
+
+
+
+
+
+
+.row2 {
+  display: grid;
+  grid-template-columns: 80%;
+  background-color: #991122;
+ 
+ 
+  
+}
+
+.financial {
+  display: grid;
+  grid-template-columns: 50%;
+  margin: 0px;
+  padding: 0px;
+  justify-content: left;
+}
+
+.financial2 {
+  background-color: #663355;
+  display: grid;
+  grid-template-columns: 50%;
+  margin: 0px;
+  padding: 0px;
+  justify-self: flex-end;
+
+}
+
+
+
+
+
+.col {
+  flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+  margin: 5px;
+  background: tomato;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.col2 {
+  flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
+ The percent can be px. It just represents your minimum starting width.
+  */
+
+  display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   space-around, stretch */
+   -webkit-align-content: flex-end;
+   align-content: flex-end;
+height: 40vh;
+  
+  background: yellow;
+  
+}
+
+
+
+/* NAV SECTION */
+
+
+
+nav {
+  height: 50px;
+    font-family: 'Source Sans Pro', serif;
+    font-size: 0.8em;
+    background-color: white;
+  
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.nav-links {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+li {
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+}
+
+
+li:hover {
+   color: black;
+
+
+}
+
+
+
+a {
+   color: gray;
+   text-decoration: none;
+   text-decoration-style: none;
+
+}
+
+
+a:hover {
+   color: black;
+   text-decoration: none;
+   text-decoration-style: none;
+
+}
+
+
+
+
+span {
+    background: #fff !important;
+}
+
+
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+  padding: 0px;
+}
+
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+/* Flex Box Section 5 */
+
+
+
+
+
+
+.s5 {
+ margin: 0px;
+  padding: 0px;
+ background-color: gray;
+width: 80%;
+ margin: auto;
+ display: flex;
+
+
+}
+
+
+
+
+
+
+.flexSection {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+  
+
+}
+
+.flexItem1 {
+ width: 330px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #c7ddea;
+  flex-grow: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+
+
+}
+
+.flexItem2 {
+ width: 330px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  flex-grow: 1;
+  justify-content: center;
+
+}
+
+.flexItem3 {
+ width: 330px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ebebeb;
+  flex-grow: 1;
+
+ 
+
+}
+
+.flexItem4 {
+ width: 330px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  flex-grow: 1;
+  min-height: 200px;
+
+
+
+}
+
+.flexItem5 {
+ width: 330px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f17849;
+  flex-grow: 1;
+
+}
+
+.flexItem6 {
+ width: 330px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  flex-grow: 1;
+
+}
+
+
+/* End Flex Section */
+
+
+
+
+
+
+
+/* Section six bottom*/
+
+
+
+.s6 {
+ margin: 0px;
+padding: 0px;
+ background-color: lightgray;
+ width: 80%;
+ margin: auto;
+
+
+
+}
+
+
+.s6gray {
+ margin: 10px;
+padding: 10px;
+ background-color: gray;
+ width: 97%;
+ margin: auto;
+ justify-content: center;
+ text-align: center;
+
+
+
+}
+
+
+.s6gray2 {
+ margin: 0px;
+ padding: 0px;
+ background-color: lightgray;
+ width: 100%;
+ height: 300px;
+ margin: auto;
+ justify-content: center;
+ text-align: center;
+
+
+
+}
+
+.As6gray {
+ color: black;
+ padding: 10px;
+ margin: 10px;
+ font-family: 'Playfair Display', serif;
+
+
+
+}
+
+
+/* Section six bottom*/
+
+
+
+
+/* Contact page */
+
+
+.contactTop {
+  width: 100%;
+ margin: 0px;
+justify-content: center;
+vertical-align: center;
+
+  padding: 0px;
+  background-color: lightblue;
+ 
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] shadow {
+  background-color: #fff;
+  color: black;
+  padding: 12px 20px;
+  
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;       3px 3px 5px 6px #ccc;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #fab131;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;       3px 3px 5px 6px #ccc;
+
+}
+
+/* Add a background color and some padding around the form */
+.container {
+
+  padding: 20px;
+}
+
+.visit {
+
+  width: 100%;
+}
+
+
+.contactH1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+    padding-top: 70px;
+}
+
+
+
+label {
+
+  font-family: 'Source Sans Pro', serif;
+}
+
+
+
+
+
+/* Contact page */
